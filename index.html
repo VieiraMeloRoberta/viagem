@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"><i
+                class="fas fa-paper-plane"></i>viajar</a>
+        <!--NAVEGAÇÃO-->
+        <nav class="navbar">
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">Home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#sobre">Sobre</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#destino">Destino</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#servicos">Serviços</a>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#galeria">Galeria</a>
+            <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">Blogs</a>
+        </nav>
+
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">Agende agora</a>
+    </header>
+
+    <!--HOME-->
+    <section class="home" id="home">
+        <div class="content">
+            <span data-aos="fade-up" data-aos-delay="150">Siga-nos</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">Para o desconhecido</h3>
+            <p data-aos="fade-up" data-aos-delay="450">Viajar apura os sentidos, abre os horizontes,
+                transforma o mundo com novas cores e desafia os seus limites.
+            </p>
+            <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">Agende agora</a>
+        </div>
+    </section>
+    <!--SEÇÃO FORM-->
+    <section class="book-form" id="book-form">
+        <form>
+            <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+                <span>Você vai viajar para onde?</span>
+                <input type="text" placeholder="digite seu nome" value="">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+                <span>Quando?</span>
+                <input type="date" value="">
+            </div>
+            <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+                <span>Com quantas pessoas?</span>
+                <input type="number" placeholder="em quais lugares" value="">
+            </div>
+            <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="encontre agora" class="btn">
+        </form>
+    </section>
+    <!--SOBRE-->
+    <section class="sobre" id="sobre">
+        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+            <video src="./img/about-vid-1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="./img/about-vid-1.mp4"></span>
+                <span class="control-btn" data-src="./img/about-vid-2.mp4"></span>
+                <span class="control-btn" data-src="./img/about-vid-3.mp4"></span>
+            </div>
+        </div>
+
+        <div class="content" data-aos="fade-left" data-aos-delay="600">
+            <span>Escolha seu destino!</span>
+            <h3>A Majestade da Natureza espera por você</h3>
+            <p>A viagem da descoberta consiste não em achar novas paisagens, mas em ver com novos olhos. 
+                Tempo é precioso e viajar é preciso!</p>
+            <a href="#" class="btn">Mais informações</a>
+        </div>
+    </section>
+    <!--SEÇÃO DESTINO-->
+    <section class="destino" id="destino">
+        <div class="cabecalho">
+            <span>Nosso destino</span>
+            <h1>Faça o seu destino</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <div class="image">
+                    <img src="./img/des-1.jpg" alt="destino1">
+                </div>
+                <div class="content">
+                    <h3>Tours & viajar</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="./img/des-2.jpg" alt="destino2">
+                </div>
+                <div class="content">
+                    <h3>Tours & viajar</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="./img/des-3.jpg" alt="destino3">
+                </div>
+                <div class="content">
+                    <h3>Tours & viajar</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <div class="image">
+                    <img src="./img/des-4.jpg" alt="destino4">
+                </div>
+                <div class="content">
+                    <h3>Tours & viajar</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="750">
+                <div class="image">
+                    <img src="./img/des-5.jpg" alt="destino5">
+                </div>
+                <div class="content">
+                    <h3>Tours & viajar</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="900">
+                <div class="image">
+                    <img src="./img/des-6.jpg" alt="destino6">
+                </div>
+                <div class="content">
+                    <h3>Tours & travel</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1150">
+                <div class="image">
+                    <img src="./img/des-7.jpg" alt="destino7">
+                </div>
+                <div class="content">
+                    <h3>Tours & travel</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1300">
+                <div class="image">
+                    <img src="./img/des-8.jpg" alt="destino8">
+                </div>
+                <div class="content">
+                    <h3>Tours & travel</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="1300">
+                <div class="image">
+                    <img src="./img/des-9.jpg" alt="destino9">
+                </div>
+                <div class="content">
+                    <h3>Tours & travel</h3>
+                    <p>Viajar! A melhor forma de se perder e de se encontar ao mesmo tempo.</p>
+                    <a href="#">Mais informações <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SERVIÇOS-->
+    <section class="servicos" id="servicos">
+        <div class="cabecalho">
+            <span>Nossos serviços</span>
+            <h1>inúmeras expericências</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <i class="fas fa-globe"></i>
+                <h3>no mundo todo</h3>
+                <p>Aquele que retorna de uma viagem não é o mesmo que partiu.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <i class="fas fa-hiking"></i>
+                <h3>aventuras</h3>
+                <p>O mundo é cheio de lugares e expericências incríveis.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <i class="fas fa-utensils"></i>
+                <h3>Comida & bebidas</h3>
+                <p>Destinos com ótima gastronomia e sabores.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+                <i class="fas fa-hotel"></i>
+                <h3>Hotéis Acessíveis</h3>
+                <p>Os melhores hotéis, pacotes e novas expericências.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+                <i class="fas fa-wallet"></i>
+                <h3>preço acessível</h3>
+                <p>Viajar não é despesa, é investimento.</p>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 suporte</h3>
+                <p>Marcar uma viagem é marcar a sua vida para sempre.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--GALERIA-->
+    <section class="galeria" id="galeria">
+        <div class="cabecalho">
+            <span>Nossa galeria</span>
+            <h1>nós deixamos memórias</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="./img/galeria-img-1.jpg" alt="imagem1">
+                <span>local de viagens</span>
+                <h3>iceland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="./img/galeria-img-2.jpg" alt="imagem2">
+                <span>local de viagens</span>
+                <h3>greenland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="./img/galeria-img-3.jpg" alt="imagem3">
+                <span>local de viagens</span>
+                <h3>alaska</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="./img/galeria-img-4.jpg" alt="imagem4">
+                <span>local de viagens</span>
+                <h3>thailand</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="./img/galeria-img-5.jpg" alt="imagem5">
+                <span>local de viagens</span>
+                <h3>brasil</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="./img/galeria-img-6.jpg" alt="imagem6">
+                <span>local de viagens</span>
+                <h3>maldive</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="./img/galeria-img-7.jpg" alt="imagem7">
+                <span>local de viagens</span>
+                <h3>iceland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="./img/galeria-img-8.jpg" alt="imagem8">
+                <span>local de viagens</span>
+                <h3>alaska</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="./img/galeria-img-9.jpg" alt="imagem9">
+                <span>local de viagenst</span>
+                <h3>maldive</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!--REVER-->
+    <section class="rever">
+        <div class="content" data-aos="fade-right" data-aos-delay="300">
+            <span>depoimentos</span>
+            <h3>Boas notícias de nossos clientes</h3>
+            <p>A melhor propaganda é feita por clientes satisfeitos. Se você vende algo para alguém, você tem um cliente hoje - 
+                se você ajuda alguém, você tem um cliente para a vida toda.
+            </p>
+        </div>
+
+        <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+
+            <div class="box">
+                <p>E com o tempo a gente vai se conhecendo e construindo o nosso próprio tempo.</p>
+                <div class="user">
+                    <img src="./img/pic-1.png" alt="imagem1">
+                    <div class="info">
+                        <h3>John deo</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <p>E com o tempo a gente vai se conhecendo e construindo o nosso próprio tempo.</p>
+                <div class="user">
+                    <img src="./img/pic-2.png" alt="imagem2">
+                    <div class="info">
+                        <h3>Eliza Maykai</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <p>E com o tempo a gente vai se conhecendo e construindo o nosso próprio tempo.</p>
+                <div class="user">
+                    <img src="./img/pic-3.png" alt="imagem3">
+                    <div class="info">
+                        <h3>Richard Rowselve</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <p>E com o tempo a gente vai se conhecendo e construindo o nosso próprio tempo.</p>
+                <div class="user">
+                    <img src="./img/pic-4.png" alt="imagem4">
+                    <div class="info">
+                        <h3>Lorayne Zevikovas</h3>
+                        <span>designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BLOGS-->
+    <section class="blogs" id="blogs">
+
+        <div class="cabecalho">
+            <span>blogs & posts</span>
+            <h1>Nós construimos histórias</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <div class="image">
+                    <img src="./img/blog-1.jpg" alt="imagem1">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">A vida é uma jornada, não um destino</a>
+                    <p>Planeje novas aventuras que podem se tornar memórias inesqeucíveis.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i> por admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="./img/blog-2.jpg" alt="imagem2">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">A vida é uma jornada, não um destino</a>
+                    <p>Planeje novas aventuras que podem se tornar memórias inesqeucíveis..</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i> por admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="./img/blog-3.jpg" alt="imagem3">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">A vida é uma jornada, não um destino</a>
+                    <p>Planeje novas aventuras que podem se tornar memórias inesqeucíveis..</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i> por admin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BANNER-->
+    <div class="banner">
+        <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+            <span>Comece suas aventuras</span>
+            <h3>Vamos explorar este mundo</h3>
+            <p>Podemos viajar por todo o mundo em busca do que é belo.
+            </p>
+            <a href="#book-form" class="btn">Agende agora</a>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <a href="#" class="logo"><i class="fas fa-paper-plane"></i>viajar </a>
+                <p>Viajar e recarregar as energias. Pensando sempre no próximo destino.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <h3>Links Rápidos</h3>
+                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#sobre" class="links"> <i class="fas fa-arrow-right"></i>Sobre</a>
+                <a href="#destino" class="links"> <i class="fas fa-arrow-right"></i>Destino</a>
+                <a href="#servicos" class="links"> <i class="fas fa-arrow-right"></i>Serviços</a>
+                <a href="#galeria" class="links"> <i class="fas fa-arrow-right"></i>Galeria</a>
+                <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i>Blogs</a>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <h3>Informações de contato</h3>
+                <p><i class="fas fa-map"></i> São Paulo, Brasil</p>
+                <p><i class="fas fa-phone"></i> +123-456-789</p>
+                <p><i class="fas fa-envelope"></i> email@gmail.com</p>
+                <p><i class="fas fa-clock"></i> 7:00am - 10:00pm</p>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <h3>novas notícias</h3>
+                <p>Inscreva-se para atualizações mais recentes</p>
+                <form>
+                    <input type="email" name="" placeholder="Digite seu e-mail" class="email">
+                    <input type="submit" value="Inscreva-se" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--CREDITO-->
+    <div class="credito">criado pela <span>Desenvolvedora Front-end</span> | todos os direitos reservados!</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+
+    </script>
+
+</body>
+</html>
